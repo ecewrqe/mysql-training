@@ -330,7 +330,6 @@ left join
 group by student.SId
 having score_count = (select count(*) from SC where SId = "01");
 
--- 查询没有学过 zhangsan 老师讲授的任意一门课程的学生姓名
 -- 10. 张三先生の授業が受けたことがない学生情報
 -- 勉強した学生
 drop view zhangsan_course_student;
