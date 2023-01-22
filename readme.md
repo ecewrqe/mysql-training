@@ -1,6 +1,7 @@
 # sql training
 ## テーブルを作る：学生、先生、課程、点数
 
+```
 create table Student(
 	`SID` int not null auto_increment comment '学生番号',
 	`SName` varchar(16) not null comment '学生名前',
@@ -33,6 +34,7 @@ create table SC(
 	`Score` int comment '点数',
 	constraint `S_C_ID` primary key (`SID`, `CID`)
 );
+```
 
 データー内容、参照：DDL.sql
 ## 問題集
